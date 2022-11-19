@@ -1,0 +1,17 @@
+@import '../../../App.scss';
+
+.tables {
+    width: 100%;
+
+    .table {
+        width: 100%;
+    }
+
+    .status {
+        border-radius: 5px;
+
+        &.approved {
+            color: green($color: #000000);
+        }
+    }
+}

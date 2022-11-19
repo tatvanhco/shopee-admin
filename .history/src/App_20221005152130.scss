@@ -1,0 +1,16 @@
+$primary-color: #38cab3;
+$text: #7b8191;
+
+.containers {
+    display: flex;
+
+    .App__Content {
+        flex: 7;
+    }
+}
+
+.CircularProgressbar {
+    .CircularProgressbar-path {
+        stroke: $primary-color !important;
+    }
+}

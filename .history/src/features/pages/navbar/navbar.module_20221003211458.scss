@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    height: 64px;
+    border-bottom: 1px solid #ededf5;
+    align-items: center;
+    font-size: 14px;
+    color: #7b8191;
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+
+        .search {
+            display: flex;
+            align-items: center;
+            border: 0.5px solid lightgray;
+            padding: 3px;
+
+            input {
+                border: none;
+                outline: none;
+                background-color: transparent;
+
+                &::placeholder {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .items {
+            display: flex;
+
+            .item {
+                display: flex;
+                align-items: center;
+                margin-right: 20px;
+
+                .icon {
+                    font-size: 20px;
+                }
+
+                .avatar {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+
+                .counter {
+                    width: 15px;
+                    height: 15px;
+
+                    .counter:first-child {
+                        
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.data_table {
+    height: 400px;
+    padding: 20px;
+    width: ;
+    font-size: 24px;
+
+    .status {
+        padding: 6px 15px;
+        border-radius: 5px;
+        color: #fff;
+        margin: 0 auto;
+
+        &.active {
+            background-color: #24d5b8;
+        }
+        &.passive {
+            background-color: #f34343;
+        }
+    }
+
+    .fixBtn {
+        background-color: #24d5b8;
+
+        &:hover {
+            opacity: 0.8;
+            background-color: #24d5b8;
+        }
+    }
+    .deleteBtn {
+        background-color: #f34343;
+
+        &:hover {
+            opacity: 0.8;
+            background-color: #f34343;
+        }
+    }
+}

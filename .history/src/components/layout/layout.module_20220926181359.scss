@@ -1,0 +1,27 @@
+.sideBar {
+    width: calc(100% - 86%);
+    background-color: #365262;
+    color: #ebf8fe;
+    padding-top: 50px;
+    padding-left: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sideBar__items {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #ccc;
+}
+
+.sideBar__item {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.logout_btn {
+    
+}

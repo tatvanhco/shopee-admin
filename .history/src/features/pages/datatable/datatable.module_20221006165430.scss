@@ -1,0 +1,22 @@
+.data_table {
+    .status {
+        padding: 5px;
+        border-radius: 5px;
+        color: #fff;
+
+        &.active {
+            background-color: #24d5b8;
+        }
+        &.passive {
+            background-color: #f34343;
+        }
+    }
+
+    .fixBtn {
+        width: 30px;
+        height: 30px;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: #24d5b8;
+    }
+}

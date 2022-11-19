@@ -1,0 +1,46 @@
+@import '../../../App.scss';
+
+.feature {
+    flex: 2;
+    // height: 20rem;
+    -webkit-box-shadow: -2px 9px 16px -8px #000000;
+    box-shadow: -2px 9px 16px -8px #000000;
+    border-radius: 10px;
+
+    .top {
+        color: $text;
+
+        .title {
+            font-size: 24px;
+        }
+    }
+
+    .bottom {
+        .feature_chart {
+            width: 100px;
+            height: 100px;
+        }
+
+        .title {
+            font-size: 18px;
+            color: $text;
+        }
+
+        .amount {
+            font-size: 30px;
+        }
+
+        .desc {
+            font-size: 14px;
+            color: $text;
+        }
+
+        .summary {
+            width: 100%;
+
+            .item {
+                
+            }
+        }
+    }
+}

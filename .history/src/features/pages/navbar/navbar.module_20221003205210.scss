@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    height: 64px;
+    border-bottom: 1px solid #ededf5;
+    align-items: center;
+    font-size: 14px;
+    color: #7b8191;
+
+    .wrapper {
+        display: flex;
+
+        .items {
+            display: flex;
+        }
+    }
+}

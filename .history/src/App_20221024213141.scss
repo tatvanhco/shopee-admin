@@ -1,0 +1,60 @@
+$primary-color: #38cab3;
+$text: #7b8191;
+$close_btn: #f74f75;
+
+.containers {
+    display: flex;
+
+    .App__Content {
+        padding-left: 15rem;
+        flex: 7;
+
+        .warpper {
+            padding-top: 5rem;
+            min-height: 95vh;
+        }
+    }
+
+    .CircularProgressbar {
+        .CircularProgressbar-path {
+            stroke: $primary-color !important;
+        }
+    }
+
+    .css-1jbbcbn-MuiDataGrid-columnHeaderTitle {
+        font-size: 16px;
+    }
+
+    .css-1e2bxag-MuiDataGrid-root .MuiDataGrid-cellContent {
+        f
+    }
+
+    .css-de9k3v-MuiDataGrid-selectedRowCount {
+        display: none;
+    }
+
+    .css-17jjc08-MuiDataGrid-footerContainer {
+        justify-content: flex-end;
+    }
+
+    .status {
+        padding: 5px;
+        border-radius: 5px;
+        color: #fff;
+
+        &.approved {
+            background-color: #24d5b8;
+        }
+        &.pending {
+            background-color: #f34343;
+        }
+        &.Delivering {
+            background-color: #fd7e14;
+        }
+    }
+
+    .footer {
+        font-size: 20px;
+        color: $text;
+    }
+}

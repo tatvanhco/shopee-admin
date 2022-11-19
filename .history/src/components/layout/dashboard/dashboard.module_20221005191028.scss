@@ -1,0 +1,15 @@
+@import '../../../App.scss';
+
+.charts {
+    height: 26rem;
+}
+
+.list_container {
+    -webkit-box-shadow: -2px 9px 16px -8px #000000;
+    box-shadow: -2px 9px 16px -8px #000000;
+    
+
+    .list_title {
+        color: $text;
+    }
+}

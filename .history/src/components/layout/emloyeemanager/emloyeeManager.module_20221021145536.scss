@@ -1,0 +1,16 @@
+@import '../../../App.scss';
+
+.title {
+    font-size: 24px;
+}
+
+.addEmployee_btn {
+    background-color: $primary-color !important;
+    font-weight: 700 !important;
+}
+
+.add_Employee_modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

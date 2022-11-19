@@ -1,0 +1,26 @@
+$primary-color: #38cab3;
+
+.container {
+    display: flex;
+
+    .App__Content {
+        // position: relative;
+        // left: 15%;
+        // right: 0;
+        // top: 0;
+        // bottom: 0;
+        // width: calc(100% - 15%);
+        background-color: #38cab3;
+        flex: 7;
+    }
+}
+
+.warpper {
+    padding: 0 2rem;
+}
+
+.hahaha {
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+}

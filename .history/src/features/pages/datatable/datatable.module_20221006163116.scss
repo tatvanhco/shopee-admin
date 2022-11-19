@@ -1,0 +1,10 @@
+.data_table {
+    .status {
+        &.active {
+            background-color: #24d5b8;
+        }
+        &.passive {
+            background-color: #f34343;
+        }
+    }
+}

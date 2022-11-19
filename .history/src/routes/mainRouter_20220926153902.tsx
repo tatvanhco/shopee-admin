@@ -1,0 +1,16 @@
+import { Dashboard } from 'components/layout/index';
+import InnerContent from 'components/layout/Innercontext';
+import { Navigate, Route, Routes } from 'react-router-dom';
+const MainRouter = () => (
+    <Routes>
+        {/* <Route path="/" element={<PrivateRoute />}> */}
+        <Route path="/" element={<InnerContent />}>
+            <Route path="/" element={<Navigate replace to="dashboard" />} />
+            <Route path="dashboard" element={<Dashboard />} />
+        </Route>
+        {/* </Route> */}
+        <Route path="/login" element={<LoginPage />}></Route>
+    </Routes>
+);
+
+export default MainRouter;

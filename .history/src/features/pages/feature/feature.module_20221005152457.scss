@@ -1,0 +1,31 @@
+@import '../../../App.scss';
+
+.feature {
+    flex: 2;
+    height: 20rem;
+    -webkit-box-shadow: -2px 9px 16px -8px #000000;
+    box-shadow: -2px 9px 16px -8px #000000;
+
+    .top {
+        color: $text;
+
+        .title {
+            font-size: 24px;
+        }
+    }
+
+    .bottomLeft {
+        .feature_chart {
+            width: 100px;
+            height: 100px;
+        }
+
+        .bottomRight {
+            f
+            .title {
+                font-size: 18px;
+                color: $text;
+            }
+        }
+    }
+}

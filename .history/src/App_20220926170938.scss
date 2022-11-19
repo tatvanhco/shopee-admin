@@ -1,0 +1,18 @@
+.App {
+    display: flex;
+}
+
+.App__Content {
+    position: relative;
+    left: 15%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0 5rem;
+    width: calc(100% - 15%);
+    background-color: aqua;
+}
+
+.warpper {
+    
+}

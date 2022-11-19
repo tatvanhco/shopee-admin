@@ -1,0 +1,78 @@
+@import '../../App.scss';
+
+.title {
+    font-size: 24px;
+}
+
+.add_btn {
+    background-color: $primary-color !important;
+    font-weight: 700 !important;
+}
+
+.
+
+.add_modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30rem;
+    background-color: #fff;
+    -webkit-box-shadow: -2px 9px 16px -8px #000000;
+    box-shadow: -2px 9px 16px -8px #000000;
+    border-radius: 10px;
+
+    .add_modal_header {
+        // border-bottom: 1px solid $text;
+
+        .close_icon {
+            position: absolute;
+            right: 5%;
+            font-size: 28px;
+            cursor: pointer;
+            color: #808080;
+        }
+    }
+
+    .add_modal_group {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+
+        .add_modal_label {
+            display: block;
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 0.375rem;
+            margin-top: 9px;
+            color: #212529;
+        }
+
+        .add_modal_control {
+            padding: 1rem 5rem 1rem 1rem;
+            outline: none;
+            border: 1px solid #00000069;
+            border-width: 1px;
+            color: #14112d;
+            font-weight: 500;
+            height: 1.5rem;
+            border-radius: 5px;
+
+            &:focus {
+                border: 1px solid $primary-color;
+            }
+        }
+    }
+
+    .add_modal_footer {
+        .save_btn {
+            background-color: $primary-color;
+            margin-right: 0.5rem;
+        }
+
+        .close_btn {
+            background-color: $close_btn;
+        }
+    }
+}

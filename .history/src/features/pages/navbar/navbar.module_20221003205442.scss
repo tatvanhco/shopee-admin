@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    height: 64px;
+    border-bottom: 1px solid #ededf5;
+    align-items: center;
+    font-size: 14px;
+    color: #7b8191;
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+
+        .items {
+            display: flex;
+        }
+    }
+}

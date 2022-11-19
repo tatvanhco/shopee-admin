@@ -1,0 +1,50 @@
+@import '../../../App.scss';
+
+.login_from {
+    background: $primary-color;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    width: 360px;
+    min-height: 30rem;
+    padding: 50px;
+    text-align: center;
+    background: #fff;
+    border-radius: 20px;
+    align-self: center;
+    box-shadow: 0 2px 5px 0 rgb(51 62 73 / 10%);
+}
+
+.login_logo {
+    color: $primary-color;
+    word-spacing: 2px;
+    font-size: 45px;
+    margin: 5px 0;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.login_title {
+    color: $primary-color;
+    margin: 0;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.login_desc {
+    font-weight: 600;
+}
+
+.from_group {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    p
+}

@@ -1,0 +1,47 @@
+.sideBar {
+    flex: 1;
+
+    .top {
+        background-color: aqua;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo {
+            font-size: 20px;
+            font-weight: 600;
+            co
+        }
+    }
+}
+
+// .sideBar__items {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .sideBar__item {
+//     text-decoration: none;
+//     // color: #fff;
+//     font-size: 20px;
+//     font-weight: 600;
+//     margin: 10px 0;
+
+//     &:hover {
+//         color: aqua;
+//     }
+// }
+
+.logout_btn {
+    width: 70%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sidebar_active {
+    background-color: hsla(0, 0%, 100%, 0.1);
+}

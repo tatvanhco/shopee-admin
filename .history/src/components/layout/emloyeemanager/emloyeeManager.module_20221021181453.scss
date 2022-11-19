@@ -1,0 +1,32 @@
+@import '../../../App.scss';
+
+.title {
+    font-size: 24px;
+}
+
+.addEmployee_btn {
+    background-color: $primary-color !important;
+    font-weight: 700 !important;
+}
+
+.add_Employee_modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #fff;
+    -webkit-box-shadow: -2px 9px 16px -8px #000000;
+    box-shadow: -2px 9px 16px -8px #000000;
+    border-radius: 10px;
+
+    .add_Employee_modal_header {
+        border-bottom: 1px solid $text;
+    }
+
+    .add_Employee_modal_footer {
+        border-top: 1px solid $text;
+
+        .
+    }
+}

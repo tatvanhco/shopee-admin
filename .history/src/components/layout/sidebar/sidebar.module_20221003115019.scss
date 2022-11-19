@@ -1,0 +1,72 @@
+@import '../../../App.scss';
+
+.sideBar {
+    flex: 1;
+    border-right: 1px solid #ededf5;
+    min-height: 100vh;
+
+    .top {
+        // background-color: aqua;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo {
+            font-size: 24px;
+            font-weight: 600;
+            color: $primary-color;
+        }
+    }
+
+    hr {
+        height: 0;
+        border: 1px solid #ededf5;
+    }
+
+    .center {
+        padding-left: 10px;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            .title {
+                font-size: 12px;
+                font-weight: bold;
+                color: #7b8191;
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+
+            .sideBar__item {
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                text-decoration: none;
+                color: #7b8191;
+
+                &:hover {
+                    background-color: #ece8ff;
+                    color: $primary-color;
+                }
+
+                .icon {
+                    font-size: 18px;
+                }
+
+                span {
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-left: 10px;
+                }
+            }
+
+            .sidebar_active {
+                color: $primary-color !important;
+            }
+        }
+    }
+}
+

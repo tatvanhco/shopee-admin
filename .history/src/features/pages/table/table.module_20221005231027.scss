@@ -1,0 +1,26 @@
+@import '../../../App.scss';
+
+.tables {
+    width: 100%;
+
+    .table {
+        width: 100%;
+    }
+
+    .status {
+        border-radius: 5px;
+
+        &.approved {
+            color: green;
+            background-color: rgb(85, 133, 85);
+        }
+        &.pending {
+            color: goldenrod;
+            background-color: b;
+        }
+        &.approved {
+            color: green;
+            background-color: rgb(85, 133, 85);
+        }
+    }
+}
